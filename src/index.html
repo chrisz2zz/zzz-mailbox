@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="left">
+        <div class="flex-left-container">
+          <button class="flex-button-special">写信</button>
+          <button class="flex-button" id="inbox">收件箱</button>
+          <button class="flex-button" id="outbox">发件箱</button>
+          <button class="flex-button" id="trash">垃圾箱</button>
+        </div>
+      </div>
+
+      <div class="center">
+      <div class="flex-left-container" id="thumbnail">
+
+      </div>
+      </div>
+      
+      <div class="right">
+        <div class="flex-left-container">
+            <div id="under-greet-msg"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
